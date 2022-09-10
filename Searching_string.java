@@ -12,7 +12,7 @@ public class Searching_string {
   }
   public static String find(String s,String sub,int count) {
 	    for (int i = 0; i < s.length(); i++) {
-	        if (s.charAt(i) == s.charAt(count)) {
+	        if (s.charAt(i) == sub.charAt(count)) {
 	            count++;
 	        } else {
 	            count = 0;
